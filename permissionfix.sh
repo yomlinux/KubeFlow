@@ -2,7 +2,7 @@
 set -e
 echo "⚡ Setting up NFS Server Permissions for Kubeflow"
 
-NFS_SERVER="10.0.0.135"
+NFS_SERVER="10.0.0.134"
 BASE="/data/app2/kubeflow"
 SHARED="$BASE/shared"
 DB="$BASE/mariadb"
